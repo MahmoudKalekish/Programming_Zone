@@ -1,0 +1,127 @@
+* {
+    background-color: #f3f1e9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .premier {
+        overflow: hidden;
+        display: inline-block;
+        color: #103754;
+        text-align: left;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        vertical-align: top;
+      }
+      
+      .premier a {  
+        color: #103754;
+        padding: 20px 20px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 0px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 5px;
+        margin-left: -15px;
+        margin-top: -10px;
+      }
+  
+      .logo {
+        text-align: left;
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        margin-left: -20px;
+        margin-right: 0px;
+        margin-top: -50px;
+      }
+  
+      .wrapper {
+        position: relative;
+        vertical-align: top;
+        width: 800px;
+       display: inline-block;
+        margin-top: 7px;
+      }
+  
+      .search-icon {
+        position: absolute;
+        width: 14px;
+        top: 10px;
+        left: 110px;
+        color: #103754;
+      }
+  
+      .search {
+        border: 1px solid #103754;
+        border-radius: 5px;
+        height: 20px;
+        width: 300px;
+        padding:  2px 23px 2px 30px;
+        outline: 0;
+        background-color: #f3f1e9;
+        margin-top: -40px;
+        margin-left: 100px;
+        margin-right: 220px;
+        color: #103754;
+          }  
+     
+      body {
+        min-width: 1200px;
+      }
+
+
+
+    .boite {
+        width: 800px;
+        height: 300px;
+        border-radius: 25px;
+        background-color: #c9d2d1;
+        margin-top: 20px;
+        margin-left: 270px;
+        padding: 20px;
+    }  
+    
+    h1 {
+        font-size: 25px;
+        font-weight: bold;
+        color: #103754;
+        background-color: #c9d2d1;
+    } 
+    
+    
+
+    .col1  {
+        position:relative;
+        color: #103754;
+        font-size: 18px;
+        margin-left: 80px;
+        float: left;
+        background-color: #c9d2d1;
+        line-height: 1.6;
+    }
+
+    .col2 {
+        position: relative;
+        color: #388087;
+        font-size: 18px;
+        float: left;
+        margin-left: 10px;
+        margin-right: 180px;
+        background-color: #c9d2d1;
+        line-height: 1.6;
+    }
+    
+
+    .image {
+        position: relative;
+        height: 100px;
+        width: 130px;
+        background-color: #c9d2d1;
+        margin-left: 60px;
+        float: left;
+        margin-right: 0px;
+    }

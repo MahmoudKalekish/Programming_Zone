@@ -1,0 +1,294 @@
+* {
+  background-color: #f3f1e9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  }
+ 
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: -106px;
+    margin-left: 900px;
+}
+  
+  .premier {
+  overflow: hidden;
+  display: inline-block;
+  color: #103754;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  vertical-align: top;
+  }
+  
+  .premier a {
+  color: #103754;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 0px;
+  vertical-align: top;
+  margin-right: 5px;
+  margin-left: -5px;
+  margin-top: -10px;
+  }
+  
+  .logo {
+  text-align: left;
+  width: 150px;
+  height: 150px;
+  margin-left: -20px;
+  margin-right: 0px;
+  margin-top: -50px;
+  }
+  
+  .container {
+  position: relative;
+  }
+  
+  .text-block {
+  position: absolute;
+  bottom: 200px;
+  right: 721px;
+  text-align: center;
+  padding-right: 50px;
+  }
+  
+  .image1 {
+  text-align: left;
+  margin-bottom: 30px;
+  }
+  
+  h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 60px;
+  color: #103754;
+  word-spacing: 20px;
+  }
+  
+  .parag1 {
+  color: #638181;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  }
+  
+  p, h1 {
+  margin: 2px;
+  padding: 2px;
+  }
+  
+  .name {
+  color: #023246;
+  font-size: 20px;
+  font-weight: lighter;
+  }
+  
+  .box1 {
+  background-color: #c9d2d1;
+  margin-top: 0px;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 97.5%;
+  height: 200px;
+  margin-left: 0;
+  text-align: center;
+  color: #103754;
+  }
+  
+  h2 {
+  margin-top: 0;
+  color: #103754;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .ligne1 {
+    background-color: #103754;
+height: 2px;
+width: 60%;
+}
+
+.start {
+color: #103754;
+font-size: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container2 {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 50px;
+}
+
+.text-block2 {
+width: 50%;
+text-align: left;
+padding: 20px;
+}
+
+h3 {
+color: #103754;
+font-size: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parag2 {
+color: #638181;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: lighter;
+}
+
+.image2 {
+width: 50%;
+height: 400px;
+margin-top: 20px;
+}
+
+.box2 {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: 50px;
+width: 95%;
+margin-left: 10px;
+}
+
+.case {
+width: 20%;
+text-align: center;
+padding: 20px;
+background-color: #c9d2d1;
+color: #103754;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sous {
+font-size: 20px;
+color: #103754;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.case2 {
+width: 20%;
+text-align: center;
+padding: 20px;
+background-color: #f3f1e9;
+color: #103754;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sous2 {
+font-size: 20px;
+color: #103754;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+background-color: #103754;
+color: #f3f1e9;
+padding: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left {
+width: 50%;
+text-align: left;
+}
+
+.copyright {
+font-size: 15px;
+}
+
+.right {
+width: 50%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+li a {
+color: #f3f1e9;
+text-decoration: none;
+font-size: 15px;
+}
+
+@media (max-width: 600px) {
+.premier {
+display: none;
+}
+.logo {
+width: 100px;
+height: 100px;
+}
+.navbar {
+flex-direction: row;
+align-items: flex-end;
+}
+.navbar a {
+margin: 10px 0;
+}
+.text-block {
+position: absolute;
+bottom: 20px;
+right: 50px;
+text-align: center;
+padding-right: 0;
+}
+.container2 {
+flex-direction: column;
+}
+.image2 {
+width: 100%;
+height: 300px;
+}
+.box2 {
+flex-direction: column;
+}
+.case {
+width: 100%;
+}
+.case2 {
+width: 100%;
+}
+.footer {
+flex-direction: column;
+text-align: center;
+}
+.left {
+width: 100%;
+}
+.right {
+width: 100%;
+flex-direction: row;
+justify-content: center;
+}
+}
